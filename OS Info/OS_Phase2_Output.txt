@@ -3,6 +3,7 @@ It includes all the files needed to run and compile and the files it
 generates such as *.st, *.out, *.o. The *.out files contains the ouput
 of the program *.s.
 
-For some reason I cannot add the *.st files to GitHub but as the output
-it should be empty because is used while is running and when it finished
-it clears everything.
+The OS when compile and run it generates *.st files, but when the OS
+finished it empties the stack to the *.st files are empty. So I cannot
+add empty files to GitHub. Its not shown on the OS Phase2 Output
+but the OS generates it.
