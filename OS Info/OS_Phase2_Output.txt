@@ -2,3 +2,7 @@ The ouput of the OS Phase2 are located on the folder "OS Phase2 Output"
 It includes all the files needed to run and compile and the files it
 generates such as *.st, *.out, *.o. The *.out files contains the ouput
 of the program *.s.
+
+For some reason I cannot add the *.st files to GitHub but as the output
+it should be empty because is used while is running and when it finished
+it clears everything.
