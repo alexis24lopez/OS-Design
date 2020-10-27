@@ -1,6 +1,0 @@
-9
-add5: Out of bound Error, pc = 17670752
-Turn around time = 221, CPU time = 29, Wait time = 99, IO time = 68
-Total CPU time = 2296, System time = 750, Idle time = 27, Final clock = 3073
-Real CPU Utilization = 74.7%, System CPU Utilization = 99.1%, Throughput = 1.95
-
