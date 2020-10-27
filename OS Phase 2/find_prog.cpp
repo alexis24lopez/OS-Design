@@ -2,8 +2,6 @@
 #include<fstream>
 #include<cassert>
 #include<string>
-#include <iomanip>
-#include <cstdlib>
 
 int main()
 {
@@ -17,7 +15,6 @@ int main()
 	while(progs1 >> programs){
 		for (int i = 0; i < programs.size(); ++i){
 			if(programs[i] == '.'){
-				std::cout << programs << std::endl;
 				progs << programs << std::endl;
 			}
 		}
