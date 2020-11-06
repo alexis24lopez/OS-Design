@@ -14,4 +14,11 @@ Note: If you're running the OS in linux you need to uncomment line: 16 on OS.cpp
       windows leave line: 16 on OS.cpp as it is and follow instructions on
       Run_OS_Phase2.png located on OS Info.
 
+Note: If you want to run OS Phase2 Custom Libraries OS it includes my own 
+      String, Vector, Queue, List libraries to run my OS. This means I'm
+      not using the std: string, vector, queue, list template libraries.
+      You can still uncomment my own custom libraries and use the std.
+      If using std libraries change String -> std::string, 
+      Vector -> std::vector, Queue -> std::queue, List -> std::list.
+
 Enjoy the show!
