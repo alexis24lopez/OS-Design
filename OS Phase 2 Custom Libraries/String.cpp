@@ -1,6 +1,7 @@
 /***********************************************************************
 Alexis Lopez
 01/31/18
+Revised: 11/5/2020
 String.cpp
 
 Implementation of constructors and member functions defined in String.h.
@@ -162,40 +163,9 @@ String String::operator+(const String & arg)
     }
 	
 	temp[i] = '\0';
-
-    //size = tempSize;
-    //delete [] buffer;
-    //buffer = temp;
-
+	
     return temp;
-	
-	
 }
-
-/*String String::operator+(const String & lhs, const String & rhs)
-{
-	return String(lhs) += rhs;
-}
-
-String String::operator+(const String & lhs, char rhs)
-{
-	return String(lhs) += String(rhs);
-}
-
-String String::operator+(const String & lhs, const char * rhs)
-{
-	return String(lhs) += String(rhs);
-}
-
-String String::operator+(char lhs, const String & rhs)
-{
-	return String(lhs) += String(rhs);
-}
-
-String String::operator+(const char * lhs, const String & rhs)
-{
-	return String(lhs) += rhs;
-}*/
 
 int String::find(const String & arg) const
 {
